@@ -1,0 +1,26 @@
+{
+  "name": "mongodb-rest-api-example",
+  "version": "1.0.0",
+  "description": "mongodb rest api example",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "author": "Abraham Elie",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^15.0.1",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "helmet": "^5.0.2",
+    "jest": "^27.5.1",
+    "mongoose": "^6.1.9",
+    "morgan": "^1.10.0",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
